@@ -24,7 +24,49 @@ You can use this on your layout file to display the page title:
 <%= page_title %>
 ```
 
-This will use the following I18n scope:
+The page title will be inferred from the controller and action names. For an action `SiteController#index` you'll the following translate scope:
+
+```yaml
+en:
+  titles:
+    base: "%{title} • MyCompany"
+    site:
+      index: "Welcome to our site"
+```
+
+The `titles.base` scope is required and will be used to set a general title information, like your company's name.
+
+You can also set the page title for namespaced controllers. For an action `Admin::Site#index` you'll need the following translate scope:
+
+```yaml
+en:
+  titles:
+    base: "%{title} • MyCompany"
+    admin:
+      site:
+        index: "Welcome to our site"
+```
+
+Sometimes you need to render some dynamic value. In this case, you can use the I18n placeholders.
+
+```yaml
+en:
+  titles:
+    base: "%{title} • MyCompany"
+    workshops:
+      show: "%{name}"
+```
+
+You can set dynamic values using the `PageSite::Base#[]=`.
+
+```ruby
+class WorkshopsController < ApplicationController
+  def show
+    @workshop = Workshop.find_by_permalink!(params[:permalink])
+    page_title[:name] = @workshop.name
+  end
+end
+```
 
 ## Contributing
 
