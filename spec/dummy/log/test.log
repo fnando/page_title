@@ -1,0 +1,81 @@
+Processing by AnonymousController#index as HTML
+Completed 500 Internal Server Error in 2ms
+Processing by AnonymousController#index as HTML
+Completed 500 Internal Server Error in 2ms
+Processing by AnonymousController#index as HTML
+Completed 500 Internal Server Error in 1ms
+Processing by AnonymousController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 12ms (Views: 11.8ms)
+Processing by AnonymousController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 13ms (Views: 12.6ms)
+Processing by AnonymousController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 12ms (Views: 12.0ms)
+Processing by AnonymousController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 14ms (Views: 13.2ms)
+Processing by AnonymousController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 14ms (Views: 13.4ms)
+Processing by AnonymousController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 12ms (Views: 11.5ms)
+Processing by AnonymousController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 12ms (Views: 12.1ms)
+Processing by AnonymousController#index as HTML
+Completed 200 OK in 1ms (Views: 0.6ms)
+Processing by AnonymousController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 12ms (Views: 11.5ms)
+Processing by AnonymousController#index as HTML
+Completed 200 OK in 1ms (Views: 0.8ms)
+Processing by AnonymousController#index as HTML
+Completed 200 OK in 1ms (Views: 0.5ms)
+Processing by AnonymousController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 12ms (Views: 11.7ms)
+Processing by AnonymousController#index as HTML
+Completed 200 OK in 1ms (Views: 0.5ms)
+Processing by AnonymousController#index as HTML
+Completed 200 OK in 1ms (Views: 0.5ms)
+Processing by AnonymousController#index as HTML
+Completed 500 Internal Server Error in 9ms
+Processing by AnonymousController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 12ms (Views: 11.9ms)
+Processing by AnonymousController#index as HTML
+Completed 200 OK in 1ms (Views: 0.5ms)
+Processing by AnonymousController#index as HTML
+Completed 200 OK in 1ms (Views: 0.6ms)
+Processing by AnonymousController#index as HTML
+Completed 200 OK in 12ms (Views: 12.0ms)
+Processing by AnonymousController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 15ms (Views: 14.7ms)
+Processing by AnonymousController#index as HTML
+Completed 200 OK in 1ms (Views: 1.0ms)
+Processing by AnonymousController#index as HTML
+Completed 200 OK in 1ms (Views: 1.0ms)
+Processing by AnonymousController#index as HTML
+Completed 500 Internal Server Error in 54ms
+Processing by AnonymousController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 12ms (Views: 11.6ms)
+Processing by AnonymousController#index as HTML
+Completed 200 OK in 1ms (Views: 0.5ms)
+Processing by AnonymousController#index as HTML
+Completed 200 OK in 1ms (Views: 0.5ms)
+Processing by AnonymousController#index as HTML
+Completed 200 OK in 39ms (Views: 38.3ms)
+Processing by AnonymousController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 12ms (Views: 11.9ms)
+Processing by AnonymousController#index as HTML
+Completed 200 OK in 1ms (Views: 0.5ms)
+Processing by AnonymousController#index as HTML
+Completed 200 OK in 1ms (Views: 0.5ms)
+Processing by AnonymousController#index as HTML
+Completed 200 OK in 34ms (Views: 33.3ms)

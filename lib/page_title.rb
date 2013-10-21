@@ -1,5 +1,7 @@
 require "i18n"
 require "forwardable"
+require "page_title/engine"
+require "page_title/helpers"
 require "page_title/version"
 
 module PageTitle
