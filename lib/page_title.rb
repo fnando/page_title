@@ -38,7 +38,9 @@ module PageTitle
     end
 
     def normalized_controller_name
-      controller.controller_name.gsub(%r[/], ".")
+      controller.class.name.underscore
+        .gsub(/_controller/, "")
+        .gsub(%r[/], ".")
     end
 
     def title_scope

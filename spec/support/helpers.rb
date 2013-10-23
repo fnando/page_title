@@ -1,8 +1,10 @@
 module SpecHelper
   module ClassMethods
     def set_controller(name, action_name)
+      let!(:controller_class) { stub_const(name.camelize, Class.new) }
+
       let(:controller) {
-        double(controller_name: name, action_name: action_name)
+        double(class: controller_class, controller_name: name, action_name: action_name)
       }
     end
 
