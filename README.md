@@ -77,6 +77,12 @@ class AdminController < ActionController::Base
 end
 ```
 
+We detect the following action aliases:
+
+* Action `create` points to `new`
+* Action `update` points to `edit`
+* Action `destroy` points to `remove`
+
 ## Contributing
 
 1. Fork it
