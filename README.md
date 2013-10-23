@@ -68,6 +68,15 @@ class WorkshopsController < ApplicationController
 end
 ```
 
+If you're creating a controller that do not extend from `ApplicationController`, remember to use the lines below:
+
+```ruby
+class AdminController < ActionController::Base
+  include PageTitle::Helpers
+  helper_method :page_title
+end
+```
+
 ## Contributing
 
 1. Fork it
