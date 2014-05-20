@@ -32,6 +32,10 @@ module PageTitle
       base_translation
     end
 
+    def simple
+      title_translation
+    end
+
     private
     def title_translation
       I18n.t(

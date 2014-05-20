@@ -11,6 +11,14 @@ describe PageTitle do
     it { expect(page_title.to_s).to eql("TITLE") }
   end
 
+  context "ignoring base translation" do
+    set_controller "site", "index"
+    set_translations "titles.site.index" => "TITLE",
+                     "titles.base" => "%{title} - SITE"
+
+    it { expect(page_title.simple).to eql("TITLE") }
+  end
+
   context "namespace controller name" do
     set_controller "admin/site", "index"
     set_translations "titles.admin.site.index" => "TITLE",
