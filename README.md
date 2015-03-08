@@ -1,5 +1,7 @@
 # page_title
 
+[![Build Status](https://travis-ci.org/fnando/page_title.svg?branch=master)](https://travis-ci.org/fnando/page_title)
+
 Set the page title on Rails apps.
 
 ## Installation
