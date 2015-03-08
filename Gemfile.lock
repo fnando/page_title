@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    page_title (0.0.4)
+    page_title (0.1.0)
       rails
 
 GEM
