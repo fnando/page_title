@@ -38,10 +38,14 @@ module PageTitle
 
     private
     def title_translation
-      I18n.t(
-        title_scope,
-        options.merge(scope: "titles")
-      )
+      if options[:scope]
+        I18n.t(options[:scope])
+      else
+        I18n.t(
+          title_scope,
+          options.merge(scope: "titles")
+        )
+      end
     end
 
     def base_translation

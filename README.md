@@ -74,6 +74,16 @@ class WorkshopsController < ApplicationController
 end
 ```
 
+You can also use a custom translation scope. Just set the `:scope` option.
+
+```ruby
+class PagesController < ApplicationController
+  def show
+    page_title[:scope] = "pages.titles.#{params[:page]}"
+  end
+end
+```
+
 If you're creating a controller that do not extend from `ApplicationController`, remember to use the lines below:
 
 ```ruby
