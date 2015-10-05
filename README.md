@@ -32,7 +32,7 @@ To ignore the base translation, use `page_title.simple`.
 <%= page_title.simple %>
 ```
 
-The page title will be inferred from the controller and action names. For an action `SiteController#index` you'll the following translate scope:
+The page title will be inferred from the controller and action names. For an action `SiteController#index` you'll need the following translate scope:
 
 ```yaml
 en:
