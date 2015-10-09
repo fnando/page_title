@@ -1,6 +1,6 @@
 # page_title
 
-[![](https://dl.dropboxusercontent.com/u/1540890/page_title.svg)](https://github.com/fnando/page_meta)
+[![This project was superseded by https://github.com/fnando/page_meta.](http://messages.hellobits.com/warning.svg?message=This%20project%20was%20superseded%20by%20https%3A%2F%2Fgithub.com%2Ffnando%2Fpage_meta.)](https://github.com/fnando/page_meta)
 
 [![Build Status](https://travis-ci.org/fnando/page_title.svg?branch=master)](https://travis-ci.org/fnando/page_title)
 
