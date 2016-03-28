@@ -10,6 +10,13 @@ Gem::Specification.new do |spec|
   spec.homepage      = "http://github.com/fnando/page_title"
   spec.license       = "MIT"
 
+  spec.post_install_message = [
+    "================================================",
+    "WARNING: page_title was superseded by page_meta.",
+    "         https://github.com/fnando/page_meta.",
+    "================================================"
+  ]
+
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
